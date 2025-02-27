@@ -1,0 +1,46 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387 
+            
+    "version": "0.2.0",
+    "java.project.referencedLibraries": [
+        "lib/mysql-connector-j-8.4.0.jar"
+    ],
+    "configurations": [
+        {
+            "type": "java",
+            "name": "AcademicRecordView",
+            "request": "launch",
+            "mainClass": "edu.ijse.crs.view.AcademicRecordView",
+            "projectName": "CRS_New - Copy_f749b291"
+        },
+        {
+            "type": "java",
+            "name": "TestDB",
+            "request": "launch",
+            "mainClass": "edu.ijse.crs.db.TestDB",
+            "projectName": "CRS_New - Copy_f749b291"
+        },
+        {
+            "type": "java",
+            "name": "Current File",
+            "request": "launch",
+            "mainClass": "${file}"
+        },
+        {
+            "type": "java",
+            "name": "UserDao",
+            "request": "launch",
+            "mainClass": "edu.ijse.crs.dao.UserDao",
+            "projectName": "CRS_New - Copy_f749b291"
+        },
+        {
+            "type": "java",
+            "name": "LoginForm",
+            "request": "launch",
+            "mainClass": "edu.ijse.crs.view.LoginForm",
+            "projectName": "CRS_New - Copy_f749b291"
+        }
+    ]
+}
